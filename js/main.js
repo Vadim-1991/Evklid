@@ -22,7 +22,7 @@ document.addEventListener("click", function (e) {
     menu.classList.remove("menu-active")
     document.body.style.overflow = "";
   }
-  if (elementInteractive.closest(".nav__link")) { // Открытие и закрытие бургера
+  if (elementInteractive.closest(".menu__link")) { // Открытие и закрытие бургера
     menu.classList.remove("menu-active")
     document.body.style.overflow = "";
   }
